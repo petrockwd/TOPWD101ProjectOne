@@ -45,12 +45,17 @@ main {
     width: 50%;
 }
 
+
+/*left off here -> use CSS grid to set this form up*/
 .search {
     display: grid;
+    justify-content: centre;
     margin: auto;
-    grid-template-rows: 1fr 1fr;/*this is where you left off*/
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+
+
 
 
 
