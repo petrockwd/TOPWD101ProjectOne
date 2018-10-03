@@ -1,13 +1,59 @@
-.div {
-    display: block;
-}
-
-.body {
+body {
     font-family: arial, sans-sarif;
     background: #fff;
 }
 
 /*Header and navigation stuff*/
-.header {
-    position: absolute;
+header {
+    background: gray;
+    width: 100%;
+    display: grid;
+    padding: 20px 0px 20px 0px;
+    grid-template-columns: 10% 70% 5% 5% 5% 5%;
 }
+
+.about{border: 1px dotted blue;}
+.store{border: 1px dotted blue;}
+.gmail{border: 1px dotted blue;}
+.images{border: 1px dotted blue;}
+.apps{border: 1px dotted blue;}
+.signIn{border: 1px dotted blue;}
+
+/*main body - google image and form*/
+
+main {
+    border: 1px solid red;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.logoHead {
+    border: 1px solid red;
+    margin: auto;
+    width: 50%;
+}
+
+.logo {
+    border: 1px solid red;
+    display: block;
+    margin: auto;
+}
+
+.searchForm {
+    border: 1px dotted green;
+    margin: auto;
+    width: 50%;
+}
+
+.search {
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;/*this is where you left off*/
+    grid-template-columns: 2fr 1fr;
+}
+
+
+
+
+
+
