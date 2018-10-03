@@ -1,0 +1,13 @@
+.div {
+    display: block;
+}
+
+.body {
+    font-family: arial, sans-sarif;
+    background: #fff;
+}
+
+/*Header and navigation stuff*/
+.header {
+    position: absolute;
+}
